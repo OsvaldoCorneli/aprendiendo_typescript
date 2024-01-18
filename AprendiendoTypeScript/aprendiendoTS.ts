@@ -7,3 +7,6 @@ if(age >= 18){
     console.log("no es mayor de edad")
 }
 
+
+
+
