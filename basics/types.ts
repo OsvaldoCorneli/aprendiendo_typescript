@@ -41,7 +41,12 @@ let undef = undefined // aun no se a definido los dos representan datos vacios
 //TS ES PARA QUE COMO DESARROLLADORES PODAMOS ESCRIBIR UN CODIGO MAS CONTROLADO, pero todo se va a pasar
 //a JS plano. 
 
+//COMBINACION DE TIPOS
 
+let combinacion: number | null = 2; // esta variable puede ser un string o nula;
+combinacion?.toString() // El operador ? pregunta si no es null antes de hacer el metodo;
 
-
-
+type MyTypes = string | undefined //podemos crear nuestros propios tipos y si necesitamos cambiar un tipo se cambia en todos lados
+let combinacion1: MyTypes
+let combinacion2: MyTypes
+let combinacion3: MyTypes

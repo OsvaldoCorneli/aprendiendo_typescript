@@ -22,3 +22,11 @@ unk = "Hola"; // TIPO DE DATO UNKNOWN es parecido al ANY pero el tipo de dato es
 //porque no sabe que tipo de datos es. es menos poderoso porque no deja hacer lo que uno quiera.
 var nul = null; // esta definido es NULO
 var undef = undefined; // aun no se a definido los dos representan datos vacios
+//TS ES PARA QUE COMO DESARROLLADORES PODAMOS ESCRIBIR UN CODIGO MAS CONTROLADO, pero todo se va a pasar
+//a JS plano. 
+//COMBINACION DE TIPOS
+var combinacion = 2; // esta variable puede ser un string o nula;
+combinacion === null || combinacion === void 0 ? void 0 : combinacion.toString(); // El operador ? pregunta si no es null antes de hacer el metodo;
+var combinacion1;
+var combinacion2;
+var combinacion3;
