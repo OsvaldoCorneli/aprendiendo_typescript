@@ -50,3 +50,16 @@ type MyTypes = string | undefined //podemos crear nuestros propios tipos y si ne
 let combinacion1: MyTypes
 let combinacion2: MyTypes
 let combinacion3: MyTypes
+
+// CLASE 4 TYPE ASSERTION
+
+let message: any = "";
+(message as string).concat(); //CASTEARLAS Y CONVERTILAR EN TIPO
+let message1: any = 2;
+(message1 as number).toFixed(); //AHORA COMO NUMERO
+
+let messageUppercase = <string>message; //OTRA SINTAXIS 
+messageUppercase.toUpperCase();
+
+const canvas = <HTMLCanvasElement>document.getElementById("canvas"); //as HTMLCanvasElement;
+canvas.ATTRIBUTE_NODE;

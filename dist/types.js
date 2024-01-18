@@ -30,3 +30,10 @@ combinacion === null || combinacion === void 0 ? void 0 : combinacion.toString()
 var combinacion1;
 var combinacion2;
 var combinacion3;
+// CLASE 4 TYPE ASSERTION
+var message = "";
+message.concat(); //CASTEARLAS Y CONVERTILAR EN TIPO
+var message1 = 2;
+message1.toFixed(); //AHORA COMO NUMERO
+var messageUppercase = message; //OTRA SINTAXIS 
+messageUppercase.toUpperCase();
