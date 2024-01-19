@@ -9,6 +9,7 @@
     "start:interfaces": "tsc basics/interfaces.ts --outdir dist/ && node dist/interfaces.js",
     "start:customTypes": "tsc basics/customTypes.ts --outdir dist/ && node dist/customTypes.js",
     "start:classes": "tsc basics/classes --outdir dist/ && node dist/classes.js",
+    "start:functions": "tsc basics/functions --outdir dist/ && node dist/functions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
